@@ -167,7 +167,6 @@ static param_export_t params[] = {
 static mi_export_t mi_cmds[] = {
 	{ MI_ADDRESS_RELOAD,  0, mi_address_reload,  0,  0, mi_address_child_init },
 	{ MI_ADDRESS_DUMP,    0, mi_address_dump,    0,  0,  0 },
-	{ MI_SUBNET_DUMP,     0, mi_subnet_dump,     0,  0,  0 },
 	{ MI_ALLOW_URI,       0, mi_allow_uri,       0,  0,  0 },
 	{ 0, 0, 0, 0, 0, 0}
 };
